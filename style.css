@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  background-color: #1f2d3d;
+  color: white;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+}
+
+#nameSpan {
+  color: #ffd700;
+}
+
+.info {
+    background-color: #FFFFFF;
+    padding: 260px 200px;
+    text-align: left;
+    height: calc(100vh - 20px);
+    
+}
+#name {
+    font-size: 5rem;
+    color: #1f2d3d;
+}
+
+#smallInfo {
+    color: #1f2d3d;
+    font-size: 1.5rem;
+    font-weight: 700px;
+}
+
+#infoButton {
+    padding: 15px;
+    border: none;
+    background-color: #1f2d3d;
+    color: #ffd700;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 200px;
+  align-items: center;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffd700;
+}
+
+#information {
+  color: #1f2d3d;
+  font-size: 1.5rem;
+    font-weight: 700px;
+    width: 500px;
+
+}
+
+.skill {
+  padding: 50px 200px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background-color: #1f2d3d;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: 2px solid #ffd700;
+}
+
+.projects {
+  padding: 80px 200px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: none;
+}
+
+.project-card button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #1f2d3d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-card button:hover {
+  background-color: #ffd700;
+  color: black;
+}
+
+.contact {
+  padding: 80px 200px;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #1f2d3d;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #ffd700;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f2d3d;
+  color: white;
+}
