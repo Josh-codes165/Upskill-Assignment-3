@@ -116,4 +116,4 @@ The goal of this project is to demonstrate a practical understanding of HTML and
 
 ## GitHub Repository
 
-[Add your GitHub repository link here.](https://github.com/Josh-codes165/Upskill-Assignment-3)
+[GitHub repository link here.](https://github.com/Josh-codes165/Upskill-Assignment-3)
